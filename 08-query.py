@@ -46,7 +46,7 @@ res = client.search(
     collection_name="llm_law_hackathon_3",     # target collection
     data=vectorized_sentence,                # query vectors
     limit=3,                           # number of returned entities
-    anns_field="plain_text"
+    anns_field="plain_text_vector"
 )
 
 print(res)
