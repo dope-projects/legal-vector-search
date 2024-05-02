@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+langchain-community
+langchain-openai
+dspy-ai
+streamlit-scrollable-textbox
+pymilvus==2.4.0
